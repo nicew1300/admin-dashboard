@@ -1,0 +1,25 @@
+/* CSS RESET */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px; /* base font-size for rem units */
+}
+/* CSS RESET */
+
+@font-face{
+    font-family: "raleway";
+    src: url(Raleway/Raleway-VariableFont_wght.ttf);
+    font-display:swap;
+}
+
+body {
+    font-family: "raleway";
+    min-height: 100vh;
+}

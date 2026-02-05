@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- https://alexcactus0.github.io/Admin-Dashboard/ -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <div class="wrapper">
 
         <div class="header">
             <div class="top">
+                <div class="search">
+                    <label for="search"><img src="svgs/search.svg" alt="search svg"></label>
+                    <input type="search" name="search" id="search" class="input" placeholder="Search...">
+                </div>
 
+                <div class="profile">
+                    <img src="svgs/notifs.svg" alt="notifications svg">
+                    <img src="images/pfp.png" alt="profile picture" width="42px" height="42px">
+                    <div style="font-weight: bold;">Luka Stromajer</div>
+                </div>
             </div>
+
+            <br><br>
 
             <div class="bottom">
+                <div class="left">
+                    <img src="images/pfp.png" alt="profile picture" width="64px" height="64px">
+                    <div class="greeting">
+                        <div class="hi-there" style="font-size: 1rem;">Hi there,</div>
+                        <div class="greeting-name" style="font-size: 2rem; font-weight: bold;">Luka Stromajer</div>
+                    </div>
+                </div>
 
+
+                <div class="header-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Save</button>
+                </div>
             </div>
         </div>
 
-        <div class="sidebar">
-            <p>Home</p>
-            <p>Profile</p>
-            <p>Messages</p>
-            <p>History</p>
-            <p>Tasks</p>
-            <p>Communities</p>
+        <ul class="sidebar">
+            <li>Dashboard</li>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li>Communities</li>
             <br>
-            <p>Settings</p>
-            <p>Support</p>
-            <p>Privacy</p>
-        </div>
+            <li>Settings</li>
+            <li>Support</li>
+            <li>Privacy</li>
+        </ul>
 
         <div class="content">
             <div class="projects">
@@ -44,8 +72,9 @@
 
             </div>
         </div>
-        
+
     </div>
 
 </body>
+
 </html>

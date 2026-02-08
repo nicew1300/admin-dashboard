@@ -28,7 +28,7 @@ body {
 
 .wrapper {
     display: grid;
-    min-height: 100vh;
+    height: 100vh;
     grid-auto-flow: column;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
@@ -146,4 +146,10 @@ body {
 .content {
     background-color: #e2e8f0;
     color: black;
+    display: grid;
+}
+
+.content .description {
+    font-size: 1.2rem;
+    font-weight: bold;
 }

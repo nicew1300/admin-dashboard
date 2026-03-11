@@ -1,8 +1,3 @@
 # admin-dashboard
-Admin Dashboard Project!
-
-Here, I had to use my complete CSS knowledge of "intermediate HTML and CSS" curriculum,
-involving intermediate CSS properties, font-styles, CSS Grid, CSS Flexbox,
-pairing those two together, and using responsive units for everything.
-It was very fun and also easy, and I didn't have any difficulties here whatsoever!
-This is my best looking website up-to-date!
+For this project, I built a dashboard using intermediate HTML and CSS. I used Flexbox and CSS Grid for layout, experimented with font styles, and made everything responsive. It was fun to design and easy to implement. I’m happy with how it turned out; it’s the best looking website I’ve made so far.
+In this project, the newly used technologies were CSS Grid, Flexbox, and responsive CSS techniques.
